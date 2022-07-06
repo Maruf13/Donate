@@ -65,6 +65,7 @@ body{
     border-radius: 5px;
     padding: 20px 15px;
     margin-right: 10px;
+
 }
 .not_selected{
     text-decoration: none;
@@ -94,6 +95,32 @@ input{
     padding: 10px 20px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+}
+.donate_plan{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardbox{
+    display: flex;
+}
+.card{
+    width: 250px;
+    padding: 40px 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.first{
+    background-color: #4f9da639;
+}
+.second{
+    background-color: #ff595934;
+}
+.third{
+    background-color: #FFF4D6;
 }
 
 footer{
