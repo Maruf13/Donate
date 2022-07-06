@@ -129,6 +129,22 @@ input[type='text']{
     align-items: center;
     flex-direction: column;
 }
+.getupdate h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.getupdate p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.contribution_process{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .email{
     background-color: #FFF4D6;
     width: 700px;
