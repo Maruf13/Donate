@@ -15,10 +15,10 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.top{
+.header h1{
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
 } 
 .header p{
@@ -37,7 +37,63 @@ body{
 }
 
 .today_donate{
-    height: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.today_donate h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+} 
+.today_donate p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.amount{
+    display: flex;
+    padding-bottom: 30px;
+}
+.selected_option{
+    background-color: #FFEEEE ;
+    border: 1px solid #FF5959;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-right: 10px;
+}
+.not_selected{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-right: 10px;
+    background-color: #FAFAFA;
+}
+
+input{
+    outline: none;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #B3B3B3;
+    border-bottom-color: #fbfbfb;
+}
+.today_donate a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 
 footer{
