@@ -3,6 +3,43 @@ body{
     padding: 0;
 }
 
+.header{
+    height: 670px;
+    background-image:
+    linear-gradient(to bottom, rgb(159 163 182 / 52%), rgb(0 0 0 / 82%)),
+    url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+} 
+.header p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.today_donate{
+    height: 400px;
+}
+
 footer{
     height: 177px;
     background-color: black;
