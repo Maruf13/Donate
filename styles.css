@@ -104,6 +104,16 @@ input[type='text']{
     flex-direction: column;
 }
 
+.donate_plan h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+} 
+.donate_plan p{
+    font-family: 'Poppins', sans-serif;
+}
+
 .cardbox{
     display: flex;
 }
