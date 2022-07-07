@@ -138,13 +138,7 @@ input[type='text']{
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
-.contribution_process{
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
 .email{
     background-color: #FFF4D6;
     width: 700px;
