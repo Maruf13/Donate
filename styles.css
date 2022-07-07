@@ -122,6 +122,7 @@ input[type='text']{
     padding: 40px 40px;
     border-radius: 5px;
     margin-right: 20px;
+    text-align: center;
 }
 .first{
     background-color: #4f9da639;
@@ -131,6 +132,13 @@ input[type='text']{
 }
 .third{
     background-color: #FFF4D6;
+}
+.our_contribution{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .getupdate{
     height: 400px;
